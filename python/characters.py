@@ -45,8 +45,8 @@ sense.set_rotation(r=180)
 
 
 for chunk in chunk_list:
-	sense.set_pixels(chunk)
-	time.sleep(1)
+    sense.set_pixels(chunk)
+    time.sleep(1)
 
 sense.clear()
 
